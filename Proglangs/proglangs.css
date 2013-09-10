@@ -1,0 +1,77 @@
+body{
+	background-color: grey;
+}
+
+h1{
+	text-align: center;
+	color: white;
+}
+h3{
+	text-align: center;
+	text-decoration: underline;
+}
+
+ul{
+	list-style-type:none;
+}
+
+li {
+	text-align:center;
+}
+
+.red{
+	color: red;
+}
+
+.blue{
+	color: blue;
+}
+
+.yellow{
+	color: yellow;
+}
+
+.pink{
+	color: pink;
+}
+
+.orange{
+	color: orange;
+}
+
+.purple{
+	color: purple;
+	
+}
+
+.white{
+	color: white;
+}
+
+.green{
+	color: green;
+}
+
+.brown{
+	color: brown;
+}
+
+.skyblue{
+	color: skyblue;
+}
+
+.lime{
+	color: lime;
+}
+
+.violet{
+	color: violet;
+}
+
+form{
+	text-align:center;
+}
+
+.center{
+	text-align:center;
+}
