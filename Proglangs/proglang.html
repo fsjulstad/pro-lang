@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="proglang.css"/>
+	<title>Programmeringsspråk</title>	
+</head>
+<body>
+
+<h1>Programmeringsspråk - hva er det?</h1>
+
+<script>
+function myFunction(){
+	alert("Denne siden er under konstruksjon!");
+}
+</script>
+
+
+<ul class="navbar"> 
+  <li><a href="proglang.html">Hjem</a>
+  <li><label onclick="myFunction()"/><a href="proglang.html">Kronologisk</a> 
+  <li><label onclick="myFunction()"/><a href="proglang.html">Hierarkisk</a>
+  <li><label onclick="myFunction()"/><a href="proglang.html">Alfabetisk</a>
+</ul>
+
+
+<form>
+	<label for="proglang">Søk i programmeringsspråk:</label>
+	<select name="select" id="proglang" onChange="printToOutputBox(this)">
+		<option value="ActionScript">ActionScript</option>
+		<option value="AppleScript">AppleScript</option>
+		<option value="Asp">Asp</option>
+		<option value="BASIC">BASIC</option>
+		<option value="C">C</option>
+		<option value="C++">C++</option>
+		<option value="Clojure">Clojure</option>
+		<option value="COBOL">COBOL</option>
+		<option value="ColdFusion">ColdFusion</option>
+		<option value="Erlang">Erlang</option>
+		<option value="Fortran">Fortran</option>
+		<option value="Groovy">Groovy</option>
+		<option value="Haskell">Haskell</option>
+		<option value="Java">Java</option>
+		<option value="JavaScript">JavaScript</option>
+		<option value="Lisp">Lisp</option>
+		<option value="Perl">Perl</option>
+		<option value="PHP">PHP</option>
+		<option value="Python">Python</option>
+		<option value="Ruby">Ruby</option>
+		<option value="Scala">Scala</option>
+		<option value="Scheme">Scheme</option>				
+	</select>
+</form>
+
+
+<span id="outputbox">Velkommen til en mystisk verden av programmeringsspråk!</span>
+<script src="proglang.js"></script>
+
+
+<address> Laget 17. September<br>
+av Fredrik.
+</address>
+
+</body>
+</html>

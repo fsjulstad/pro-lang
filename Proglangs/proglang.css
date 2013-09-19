@@ -1,0 +1,58 @@
+/*Velger skriftfarge, skrifttype, og bakgrunnsfarge*/ 
+
+body{
+	color:#006363;
+	background-color:#FF7400;
+	font-family: Georgia;
+	padding-left: 11em;
+}
+
+/*Velger font på overskrift*/
+
+h1{
+	font-family: arial;
+}
+
+/*Velger plassering av navigeringsbar*/
+ul.navbar{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	top: 2em;
+	left: 2em;
+	width: 9em;
+}
+
+/*Velger utseende på navigeringsbar*/
+ul.navbar li{
+	background: #FF9640;
+	margin: 0.5em 0;
+	padding: 0.3em;
+	border-right: 1em solid #FFB273;
+}
+
+/*Gjør at lenker blir blå*/
+a: link {
+	color: blue;
+}
+
+/*Gjør at lenker som er besøkt blir lilla*/
+a:visited{
+	color: purple;
+}
+
+/*Legger til adressefelt*/
+address{
+	margin-top: 1em;
+	padding-top: 1em;
+	border-top: thin dotted;
+
+}
+
+/*Plasserer "søk i programmeringsspråk"*/
+form{
+	position: absolute;
+	top: 10px;
+	right: 200px;
+}
