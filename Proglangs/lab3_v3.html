@@ -42,6 +42,9 @@
 			// Kopier fra lab2_v2
 			
 			console.log("(x,y) = ("+mouse.x+","+mouse.y+")");
+			$("#x").html(mouse.x);
+            $("#y").html(mouse.y);
+			
 			
 			// Her bare kopieres lignende løsning fra lab3_v2
 			// for å skrive ut til <span> elementnoden
@@ -85,7 +88,9 @@
 	</p>
 	<canvas id="my_canvas" width="200" height="200"></canvas>
 	<!-- Oppgaveløsning skal implementeres her -->
+	<p>Klikk for å starte!</p>
 	<p>Avstand fra den venstre kanten av Canvas er <span id="x"></span></p>
 	<p>Avstand fra den øverste kanten av Canvas er <span id="y"></span></p>
+
 </body>
 </html>
