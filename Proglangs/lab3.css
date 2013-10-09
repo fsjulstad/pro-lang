@@ -13,6 +13,6 @@ color: green;
 	font-weight:bold;
 }
 
-.my_canvas {
+#my_canvas {
 	border: solid black;
 }
