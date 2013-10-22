@@ -39,7 +39,7 @@ body{
 }
 
 .firstUL li{
-	background:transparent url(file://localhost/Users/fredriksjulstad/Documents/UIA/Github/pro-lang/Proglangs/link_sprite_img.jpg) no-repeat scroll 0 0;
+	background:transparent url(link_sprite_img.jpg) no-repeat scroll 0 0;
 	display:inline;
 	font-family:'Arial',Verdana,Tahoma;
 	font-size:16pt;
@@ -50,7 +50,7 @@ body{
 }
 
 .firstUL li.selected{
-	background:transparent url(file://localhost/Users/fredriksjulstad/Documents/UIA/Github/pro-lang/Proglangs/link_sprite_img.jpg) no-repeat scroll 0px -57px;
+	background:transparent url(link_sprite_img.jpg) no-repeat scroll 0px -57px;
 	color: #ffffff;
 	font-weight:bold;
 	
